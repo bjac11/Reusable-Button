@@ -1,9 +1,6 @@
-function Button({ textColor, bgColor, onClick, children }) {
+function Button({ children, onClick}) {
   return (
-    <button
-      style={{ backgroundColor: bgColor, color: textColor }}
-      onClick={onClick}
-    >
+    <button onClick={onClick}>
       {children}
     </button>
   );
